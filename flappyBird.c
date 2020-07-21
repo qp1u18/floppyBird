@@ -225,7 +225,7 @@ int main(void) {
 
 
     srand(1);    //as seed of random number generator
-    //random_seed = rand_init();          //???????????
+    //random_seed = rand_init();          
     gameState = TITLE_FRAME;
 
     os_add_task(displayFrame,25, 1);    //show frame in period  flag - >1
@@ -241,23 +241,23 @@ int main(void) {
 
             switch (gameState)
             {
-            case TITLE_FRAME:
-                titleFrame();
-                break;
-            case RESTART_FRAME:
-                restartFrame();
-                break;
-            case WIN_FRAME:
-                winFrame();
-                break;
-            case MAIN_FRAME:
-                mainFrame();
-                break;
-            case DEMO_FRAME:
-                demoFrame();
-                break;
-            default:
-                break;
+                case TITLE_FRAME:
+                    titleFrame();
+                    break;
+                case RESTART_FRAME:
+                    restartFrame();
+                    break;
+                case WIN_FRAME:
+                    winFrame();
+                    break;
+                case MAIN_FRAME:
+                    mainFrame();
+                    break;
+                case DEMO_FRAME:
+                    demoFrame();
+                    break;
+                default:
+                    break;
             }
         }
         
