@@ -29,9 +29,9 @@ three seconds. Once the bird is getting closed to a barrier, a flower will pop u
 - An algorithm for the flower to show itself gradually rather than suddenly.
 
 #### **Screenshots**
-![image](https://github.com/qp1u18/floppyBird/blob/master/screenshot/1-start.jpg){:height="50%" width="50%"}
-![image](https://github.com/qp1u18/floppyBird/blob/master/screenshot/2-intermediate%20_stage.jpg){:height="50%" width="50%"}
-![image](https://github.com/qp1u18/floppyBird/blob/master/screenshot/3-restart.jpg){:height="50%" width="50%"}
+ <img src="./screenshot/1-start.jpg" width = "300" height = "400" alt="Start" align=center />
+ <img src="./screenshot/2-intermediate%20_stage.jpg" width = "300" height = "400" alt="Intermediate" align=center />
+ <img src="./screenshot/3-restart.jpg" width = "300" height = "400" alt="Restart" align=center />
 
 #### **Reference**
 - Peter Danneger's code (adapted by Klaus-Peter Zauner) for the rotary encoder
