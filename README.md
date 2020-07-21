@@ -1,12 +1,12 @@
 # FloppyBirdAvr
 
-#### **Overview**
+## **Overview**
 This project referenced mobile-based FloppyBird game and was developed on Lafortuna board which is powered
 by AT90USB1286(an AVR microcontroller). The player uses 4-directional encoder
 to control the character's movement to dodge incoming random barriers. 
 Demo video can be seen here: [Demo Video](https://github.com/qp1u18/floppyBird/blob/master/demo.mp4)
 
-#### **Game Mechanics**
+## **Game Mechanics**
 This game contains several frames: title frame, main frame, restart frame, 
 win frame and a demo frame. Each of those frames were bound to a fixed number
 which can be used to recognize a frame or switch to another frame.
@@ -24,17 +24,17 @@ dash into barriers. Each click of the north button moves the bird 5 pixels up.
 The bird also has 3 HP in total, which also shows in the main frame. Whenever it loses one HP, the game will pause for
 three seconds. Once the bird is getting closed to a barrier, a flower will pop up from the top of barrier in certain possibility.
 
-#### **Future Improvements**
+## **Future Improvements**
 - Find a better format to arrange all elements in the main frame.
 - Possibly include different levels of the game and add more types of barrier.
 - An algorithm for the flower to show itself gradually rather than suddenly.
 
-#### **Screenshots**
+## **Screenshots**
  <img src="./screenshot/1-start.jpg" width = "300" height = "400" alt="Start" align=center />
  <img src="./screenshot/2-intermediate%20_stage.jpg" width = "300" height = "400" alt="Intermediate" align=center />
  <img src="./screenshot/3-restart.jpg" width = "300" height = "400" alt="Restart" align=center />
 
-#### **Reference**
+## **Reference**
 - Peter Danneger's code (adapted by Klaus-Peter Zauner) for the rotary encoder
 - Steve Gunn's code (adapted by Klaus-Peter Zauner) for the lcd
 - Nikola Bozhinov's code for the main controlling part
