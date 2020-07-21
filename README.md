@@ -4,6 +4,7 @@
 This project referenced mobile-based FloppyBird game and was developed on Lafortuna board which is powered
 by AT90USB1286(an AVR microcontroller). The player uses 4-directional encoder
 to control the character's movement to dodge incoming random barriers. 
+Demo video can be seen here: [Demo Video](https://github.com/qp1u18/floppyBird/blob/master/demo.mp4)
 
 #### **Game Mechanics**
 This game contains several frames: title frame, main frame, restart frame, 
